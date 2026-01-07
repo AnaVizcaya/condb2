@@ -31,7 +31,6 @@ class ConDB:
             connstr = connection
             connection = None
         self.Conn = connection
-        print('working here 1')
         # print(f"self.Conn = {self.Conn}")
         self.ConnStr = connstr
 
